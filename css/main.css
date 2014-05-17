@@ -1,0 +1,1026 @@
+/* normalize.css v3.0.1 | MIT License | git.io/normalize */
+/* line 9, ../assets/stylesheets/bootstrap/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 19, ../assets/stylesheets/bootstrap/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* line 43, ../assets/stylesheets/bootstrap/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 55, ../assets/stylesheets/bootstrap/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 65, ../assets/stylesheets/bootstrap/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 76, ../assets/stylesheets/bootstrap/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 87, ../assets/stylesheets/bootstrap/_normalize.scss */
+a {
+  background: transparent;
+}
+
+/* line 96, ../assets/stylesheets/bootstrap/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 107, ../assets/stylesheets/bootstrap/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 116, ../assets/stylesheets/bootstrap/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 124, ../assets/stylesheets/bootstrap/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 133, ../assets/stylesheets/bootstrap/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 142, ../assets/stylesheets/bootstrap/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 151, ../assets/stylesheets/bootstrap/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 160, ../assets/stylesheets/bootstrap/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 167, ../assets/stylesheets/bootstrap/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 171, ../assets/stylesheets/bootstrap/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 182, ../assets/stylesheets/bootstrap/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 190, ../assets/stylesheets/bootstrap/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 201, ../assets/stylesheets/bootstrap/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 209, ../assets/stylesheets/bootstrap/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 219, ../assets/stylesheets/bootstrap/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 230, ../assets/stylesheets/bootstrap/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 254, ../assets/stylesheets/bootstrap/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 264, ../assets/stylesheets/bootstrap/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/* line 276, ../assets/stylesheets/bootstrap/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 291, ../assets/stylesheets/bootstrap/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 301, ../assets/stylesheets/bootstrap/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 310, ../assets/stylesheets/bootstrap/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 320, ../assets/stylesheets/bootstrap/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/* line 333, ../assets/stylesheets/bootstrap/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 345, ../assets/stylesheets/bootstrap/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 355, ../assets/stylesheets/bootstrap/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 369, ../assets/stylesheets/bootstrap/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 377, ../assets/stylesheets/bootstrap/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 388, ../assets/stylesheets/bootstrap/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 397, ../assets/stylesheets/bootstrap/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 406, ../assets/stylesheets/bootstrap/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 417, ../assets/stylesheets/bootstrap/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 423, ../assets/stylesheets/bootstrap/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+@media print {
+  /* line 8, ../assets/stylesheets/bootstrap/_print.scss */
+  * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  /* line 16, ../assets/stylesheets/bootstrap/_print.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 20, ../assets/stylesheets/bootstrap/_print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 24, ../assets/stylesheets/bootstrap/_print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 30, ../assets/stylesheets/bootstrap/_print.scss */
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 35, ../assets/stylesheets/bootstrap/_print.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 40, ../assets/stylesheets/bootstrap/_print.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 45, ../assets/stylesheets/bootstrap/_print.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 49, ../assets/stylesheets/bootstrap/_print.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  /* line 55, ../assets/stylesheets/bootstrap/_print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 61, ../assets/stylesheets/bootstrap/_print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  /* line 67, ../assets/stylesheets/bootstrap/_print.scss */
+  select {
+    background: #fff !important;
+  }
+
+  /* line 72, ../assets/stylesheets/bootstrap/_print.scss */
+  .navbar {
+    display: none;
+  }
+
+  /* line 77, ../assets/stylesheets/bootstrap/_print.scss */
+  .table td,
+  .table th {
+    background-color: #fff !important;
+  }
+
+  /* line 83, ../assets/stylesheets/bootstrap/_print.scss */
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+
+  /* line 87, ../assets/stylesheets/bootstrap/_print.scss */
+  .label {
+    border: 1px solid #000;
+  }
+
+  /* line 91, ../assets/stylesheets/bootstrap/_print.scss */
+  .table {
+    border-collapse: collapse !important;
+  }
+
+  /* line 96, ../assets/stylesheets/bootstrap/_print.scss */
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+}
+/* line 11, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 22, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 27, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: white;
+}
+
+/* line 39, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 48, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+/* line 53, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+a:hover, a:focus {
+  color: #2a6496;
+  text-decoration: underline;
+}
+/* line 58, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 69, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+figure {
+  margin: 0;
+}
+
+/* line 76, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 81, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 86, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+.img-rounded {
+  border-radius: 6px;
+}
+
+/* line 93, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857;
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 106, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+.img-circle {
+  border-radius: 50%;
+}
+
+/* line 113, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+
+/* line 125, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* line 142, ../assets/stylesheets/bootstrap/_scaffolding.scss */
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+
+/* line 15, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 12, ../assets/stylesheets/bootstrap/_utilities.scss */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 15, ../assets/stylesheets/bootstrap/_utilities.scss */
+.pull-right {
+  float: right !important;
+}
+
+/* line 18, ../assets/stylesheets/bootstrap/_utilities.scss */
+.pull-left {
+  float: left !important;
+}
+
+/* line 27, ../assets/stylesheets/bootstrap/_utilities.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 30, ../assets/stylesheets/bootstrap/_utilities.scss */
+.show {
+  display: block !important;
+}
+
+/* line 33, ../assets/stylesheets/bootstrap/_utilities.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 36, ../assets/stylesheets/bootstrap/_utilities.scss */
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/* line 45, ../assets/stylesheets/bootstrap/_utilities.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* line 54, ../assets/stylesheets/bootstrap/_utilities.scss */
+.affix {
+  position: fixed;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+/* line 18, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+.visible-xs, .visible-sm, .visible-md, .visible-lg {
+  display: none !important;
+}
+
+/* line 41, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  /* line 7, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-xs {
+    display: block !important;
+  }
+
+  /* line 10, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-xs {
+    display: table;
+  }
+
+  /* line 11, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-xs {
+    display: table-row !important;
+  }
+
+  /* line 13, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 48, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-xs-block {
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 53, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-xs-inline {
+    display: inline !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 58, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 7, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-sm {
+    display: block !important;
+  }
+
+  /* line 10, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-sm {
+    display: table;
+  }
+
+  /* line 11, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-sm {
+    display: table-row !important;
+  }
+
+  /* line 13, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 67, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-sm-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 72, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-sm-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 77, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 7, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-md {
+    display: block !important;
+  }
+
+  /* line 10, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-md {
+    display: table;
+  }
+
+  /* line 11, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-md {
+    display: table-row !important;
+  }
+
+  /* line 13, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 86, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-md-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 91, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-md-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 96, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-md-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 7, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-lg {
+    display: block !important;
+  }
+
+  /* line 10, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-lg {
+    display: table;
+  }
+
+  /* line 11, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-lg {
+    display: table-row !important;
+  }
+
+  /* line 13, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 105, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-lg-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 110, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-lg-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 115, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-lg-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 18, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 18, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 18, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-lg {
+    display: none !important;
+  }
+}
+/* line 18, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+.visible-print {
+  display: none !important;
+}
+
+@media print {
+  /* line 7, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-print {
+    display: block !important;
+  }
+
+  /* line 10, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-print {
+    display: table;
+  }
+
+  /* line 11, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-print {
+    display: table-row !important;
+  }
+
+  /* line 13, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important;
+  }
+}
+/* line 149, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+.visible-print-block {
+  display: none !important;
+}
+@media print {
+  /* line 149, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-print-block {
+    display: block !important;
+  }
+}
+
+/* line 156, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+.visible-print-inline {
+  display: none !important;
+}
+@media print {
+  /* line 156, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-print-inline {
+    display: inline !important;
+  }
+}
+
+/* line 163, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+.visible-print-inline-block {
+  display: none !important;
+}
+@media print {
+  /* line 163, ../assets/stylesheets/bootstrap/_responsive-utilities.scss */
+  .visible-print-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media print {
+  /* line 18, ../assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-print {
+    display: none !important;
+  }
+}
+/* line 4, ../scss/main.scss */
+body {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 15, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+body:before, body:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+body:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  /* line 4, ../scss/main.scss */
+  body {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 4, ../scss/main.scss */
+  body {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 4, ../scss/main.scss */
+  body {
+    width: 1170px;
+  }
+}
+/* line 16, ../scss/main.scss */
+body .site-header {
+  margin-left: -15px;
+  margin-right: -15px;
+  color: white;
+}
+/* line 15, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+body .site-header:before, body .site-header:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+body .site-header:after {
+  clear: both;
+}
+/* line 19, ../scss/main.scss */
+body .site-header a {
+  color: inherit;
+}
+/* line 22, ../scss/main.scss */
+body .site-header .site-logo {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: blue;
+}
+@media (min-width: 768px) {
+  /* line 22, ../scss/main.scss */
+  body .site-header .site-logo {
+    float: left;
+    width: 25%;
+  }
+}
+/* line 26, ../scss/main.scss */
+body .site-header .site-nav {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: red;
+}
+@media (min-width: 768px) {
+  /* line 26, ../scss/main.scss */
+  body .site-header .site-nav {
+    float: left;
+    width: 75%;
+  }
+}
+/* line 31, ../scss/main.scss */
+body .site-content {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 15, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+body .site-content:before, body .site-content:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+body .site-content:after {
+  clear: both;
+}
+/* line 33, ../scss/main.scss */
+body .site-content .featured {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: grey;
+}
+@media (min-width: 768px) {
+  /* line 33, ../scss/main.scss */
+  body .site-content .featured {
+    float: left;
+    width: 100%;
+  }
+}
+/* line 38, ../scss/main.scss */
+body .site-widgets {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 15, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+body .site-widgets:before, body .site-widgets:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+body .site-widgets:after {
+  clear: both;
+}
+/* line 40, ../scss/main.scss */
+body .site-widgets .widget {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: green;
+  border: 3px solid black;
+}
+@media (min-width: 768px) {
+  /* line 40, ../scss/main.scss */
+  body .site-widgets .widget {
+    float: left;
+    width: 33.33333%;
+  }
+}
+/* line 46, ../scss/main.scss */
+body .site-footer {
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: black;
+  color: white;
+}
+/* line 15, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+body .site-footer:before, body .site-footer:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
+body .site-footer:after {
+  clear: both;
+}
+/* line 50, ../scss/main.scss */
+body .site-footer a {
+  color: inherit;
+}
+/* line 53, ../scss/main.scss */
+body .site-footer .site-info {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  /* line 53, ../scss/main.scss */
+  body .site-footer .site-info {
+    float: left;
+    width: 33.33333%;
+  }
+}
+@media (min-width: 768px) {
+  /* line 53, ../scss/main.scss */
+  body .site-footer .site-info {
+    margin-left: 33.33333%;
+  }
+}
